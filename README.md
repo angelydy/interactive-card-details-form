@@ -1,6 +1,8 @@
 # Interactive card details form solution
 
 ![Design preview for the Interactive card details form coding challenge](./design/desktop-preview.jpg)
+![Mobile preview for the Interactive card details form coding challenge](./design/mobile-preview.jpg)
+
 
 ## Welcome! 👋
 
