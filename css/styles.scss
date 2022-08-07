@@ -8,6 +8,16 @@
   font-size: 18px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 body {
   overflow-y: hidden;
 
@@ -45,17 +55,18 @@ body {
   
       .card-images {
         position: absolute;
-        margin: 15vh;
-        width: auto;
+        margin-top: 40%;
+        margin-left: 10vw;
   
         .card-back {
           margin-left: 5em;
-          margin-top: 1em;
+          width: 30vw;
+          margin-top: 1.5em;
         }
-      }
-      .left-img {
-        max-width: 100%;
-        max-height: 100vh;
+
+        .card-front {
+          width: 30vw;
+        }
       }
     }
   
@@ -97,7 +108,10 @@ body {
       }
   
       .attribution {
-        text-align: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin-right: 1em;
       }
     }
   }
