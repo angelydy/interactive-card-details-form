@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+body a {
+  color: #21092f;
+  text-decoration: none;
+}
+
+body a:hover {
+  opacity: 50%;
+}
+
+body input {
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  width: 20em;
+  border-style: none;
+  border: solid #dedddf;
+}
+
+body input::-webkit-input-placeholder {
+  color: #dedddf;
+}
+
+body input:-ms-input-placeholder {
+  color: #dedddf;
+}
+
+body input::-ms-input-placeholder {
+  color: #dedddf;
+}
+
+body input::placeholder {
+  color: #dedddf;
+}
+
+body p {
+  color: #21092f;
+}
+
+body .body-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+}
+
+body .body-container .left-div {
+  position: relative;
+}
+
+body .body-container .left-div .card-images {
+  position: absolute;
+  margin: 15vh;
+  width: auto;
+}
+
+body .body-container .left-div .card-images .card-back {
+  margin-left: 5em;
+  margin-top: 1em;
+}
+
+body .body-container .left-div .left-img {
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+body .body-container .right-div {
+  margin: auto;
+}
+
+body .body-container .right-div form .cardholdername, body .body-container .right-div form .card-num {
+  margin-bottom: 20px;
+}
+
+body .body-container .right-div form .date-and-cvc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .body-container .right-div form .date-and-cvc input {
+  width: 4em;
+}
+
+body .body-container .right-div form .cvc input {
+  width: 9em;
+}
+
+body .body-container .right-div button {
+  margin-top: 30px;
+  padding: 10px;
+  background: #21092f;
+  color: white;
+  border-radius: 10px;
+  width: 20em;
+  cursor: pointer;
+}
+
+body .body-container .right-div .completed-state {
+  display: none;
+}
+
+body .body-container .right-div .attribution {
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
