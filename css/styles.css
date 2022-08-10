@@ -129,7 +129,14 @@ body .main-container .right-div button {
 }
 
 body .main-container .right-div .completed-state {
+  text-align: center;
   display: none;
+}
+
+body .main-container .right-div .completed-state p {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #8e8593;
 }
 
 body .main-container .right-div .attribution {

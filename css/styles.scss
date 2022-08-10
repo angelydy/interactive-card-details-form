@@ -97,6 +97,7 @@ body {
           }
         }
       }
+
       button {
         margin-top: 30px;
         padding: 10px;
@@ -108,6 +109,14 @@ body {
       }
   
       .completed-state {
+        text-align: center;
+
+        p {
+          padding-top: 20px;
+          padding-bottom: 10px;
+          color: hsl(279, 6%, 55%)
+        }
+
         display: none;
       }
   
